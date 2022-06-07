@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn-edit{
+        @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full;
+    }
+    .btn-submit{
+        @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg;
+    }
+    .btn-delete{
+        @apply bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full;
+    }
+    .btn-create{
+        @apply bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full;
+    }
+    .btn-back{
+        @apply bg-slate-500 hover:bg-slate-700 text-white font-bold py-2 px-4 rounded-full;
+    }
+}
